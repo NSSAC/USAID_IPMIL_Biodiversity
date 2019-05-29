@@ -1,0 +1,15 @@
+**/.ipynb_checkpoints
+*.bak
+*.aux
+*.blg
+*.swp
+*.bbl
+*.log
+*.out
+*.pyc
+*.pkl
+*.synctex.gz
+**/to_be_deleted*
+**/~$*.xlsx
+**/~$*.pptx
+**/.DS_Store
