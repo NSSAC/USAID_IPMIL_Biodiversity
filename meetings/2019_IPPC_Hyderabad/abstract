@@ -1,0 +1,45 @@
+Modern AI Techniques to Understand the Spatio-temporal Spread of Invasive
+
+Alien Plants: Approaches and Challenges
+
+ 
+
+Aniruddha Adiga, Ethan Choo, Pramod Jha, Krishna Poudel, Srinivasan
+
+Venkatramanan, Madhav Marathe, Abhijin Adiga
+
+ 
+
+In recent years, deep learning has emerged as an effective tool for
+
+discovering patterns in imagery data, with application in diverse domains,
+
+from medical imaging to remote sensing. Epidemiological modeling is another
+
+successful approach that is being increasingly used to study the
+
+spatiotemporal spread of diseases, pests and plants. Here, we propose a
+
+generic framework that combines these modern data-driven techniques to
+
+understand the dynamics of invasive alien plant spread; a problem that has
+
+enormous environmental and social impact.  To this end, we use historical
+
+high-resolution satellite imagery, ecological data, and plant
+
+presence/absence information due to extensive surveying.  There are several
+
+challenges that need to be overcome in order to realize such a system; data
+
+inadequacy, model complexity and heterogeneity in data formats, to name a
+
+few. We apply this to study the spatiotemporal spread patterns of invasive
+
+alien plant species in the Chitwan Annapurna Landscape (CHAL) region of
+
+Nepal, a biodiversity hotspot.  The primary focus is on understanding the
+
+roles of human activities and climate change on the rate and pattern of
+
+spread.
