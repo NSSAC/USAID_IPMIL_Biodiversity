@@ -4,7 +4,11 @@ format. This is because different students are involved in collecting the
 data. This module seeks to standardize the data. This is in some sense the
 dirty part of the entire process.
 
+# Output
+All standardized data will be stored in `./output/survey.sqlite`.
+
 ## Expected format
+At minimum, we need the following columns:
 
 ## Phases of survey
 What do we mean by this, etc.
