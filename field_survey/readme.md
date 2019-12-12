@@ -7,8 +7,7 @@ dirty part of the entire process.
 # Output
 All standardized data will be stored in `./output/survey.sqlite`.
 
-## Expected format
-At minimum, we need the following columns:
+# See survey.ipynb
 
 ## Phases of survey
 What do we mean by this, etc.
