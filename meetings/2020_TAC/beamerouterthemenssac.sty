@@ -1,0 +1,31 @@
+\mode<presentation>
+\usepackage{tikz}
+
+\DefineNamedColor{named}{UVABlue}{RGB}{10,33,85}
+\DefineNamedColor{named}{UVAOrange}{RGB}{194,80,51}
+
+\usecolortheme[named=UVABlue]{structure}
+
+\setbeamercolor{frametitle}{fg=UVAOrange}
+\setbeamercolor{framesubtitle}{fg=UVAOrange}
+\setbeamercolor{date in head/foot}{fg=white,bg=UVABlue}
+\setbeamercolor{subsection in head/foot}{fg=white,bg=UVAOrange}
+\setbeamercolor{section in head/foot}{fg=white,bg=UVABlue}
+
+\pgfdeclareimage[height=\paperheight,width=\paperwidth]{nssac-background}{NSSAC/background-main}
+\usebackgroundtemplate{\tikz\node[opacity=0.1]{\pgfuseimage{nssac-background}};}
+
+\setbeamertemplate{footline}
+{
+  \leavevmode%
+  \includegraphics[width=\paperwidth,height=0.2\paperheight]{NSSAC/logo2}
+  \vskip-15pt%
+  \hbox{%
+  \begin{beamercolorbox}[wd=10ex,ht=3mm,dp=1ex,left]{date in head/foot}%
+    \quad\insertframenumber{} / \inserttotalframenumber%
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+
+\mode<all>
+

@@ -1,0 +1,43 @@
+\newcommand{\rom}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
+\begin{table}[t]
+\centering
+\scriptsize
+%% \rowcolors{2}{white}{gray!15} % For this to work, put \PassOptionsToPackage{table}{xcolor} before \documentclass
+\begin{tabular}{p{.25\textwidth}>{\centering\arraybackslash}p{.1\textwidth}>{\centering\arraybackslash}p{.1\textwidth}>{\centering\arraybackslash}p{.1\textwidth}}
+\hline
+{\bf Species} & {\bf Phase} & {\bf Total} & {\bf Presence}\\
+\hline
+\hline
+\multirow{3}{*}{\lantana} &
+\rom{1} &
+156 &
+70 \\
+&
+\rom{2} &
+147 &
+106 \\
+&
+\rom{3} &
+369 &
+196 \\
+\hline
+\multirow{2}{*}{\parthenium} &
+\rom{2} &
+179 &
+96 \\
+&
+\rom{3} &
+96 &
+89 \\
+\hline
+\multirow{2}{*}{\chromolaena} &
+\rom{2} &
+112 &
+49 \\
+&
+\rom{3} &
+345 &
+199 \\
+\hline
+\end{tabular}
+\end{table}
